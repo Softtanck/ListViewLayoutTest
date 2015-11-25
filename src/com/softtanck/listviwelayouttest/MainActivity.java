@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 
 		list = new ArrayList<String>();
 
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 100; i++) {
 			list.add("");
 		}
 		adapter = new Myadapter(MainActivity.this, list);
